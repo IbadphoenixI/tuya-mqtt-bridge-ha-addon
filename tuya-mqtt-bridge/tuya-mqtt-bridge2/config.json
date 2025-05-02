@@ -1,7 +1,7 @@
 {
-  "name": "Tuya MQTT Bridge 2",
+  "name": "Tuya MQTT Bridge",
   "version": "1.0.1",
-  "slug": "tuya_mqtt_bridge2",
+  "slug": "tuya_mqtt_bridge",
   "description": "Bridge für Tuya-Steckdose zu MQTT (Alternative Slug)",
   "arch": ["amd64", "armv7", "aarch64"],
   "startup": "application",
