@@ -11,5 +11,5 @@
   "panel_icon": "mdi:power-socket-de",
   "options": {},
   "schema": {},
-  "image": "local/tuya_mqtt_bridge2"
+  "image": "local/tuya_mqtt_bridge"
 }
