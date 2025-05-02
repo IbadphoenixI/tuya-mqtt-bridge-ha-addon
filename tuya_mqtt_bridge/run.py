@@ -31,7 +31,7 @@ def publish_data():
         leistung = dps.get(18, 0)  # W
         strom = dps.get(19, 0) / 1000  # mA → A
         spannung = dps.get(20, 0) / 10  # V
-        gesamtverbrauch = dps.get(17, 0) / 100.0  # kWh
+        gesamtverbrauch = dps.get(26, 0) / 100.0  # kWh
 
         client.publish(f"{MQTT_TOPIC_PREFIX}/power", leistung)
         client.publish(f"{MQTT_TOPIC_PREFIX}/current", strom)
