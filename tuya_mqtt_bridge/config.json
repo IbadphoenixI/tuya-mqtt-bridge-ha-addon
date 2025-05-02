@@ -2,17 +2,17 @@
   "name": "Tuya MQTT Bridge",
   "version": "1.0.1",
   "slug": "tuya_mqtt_bridge",
-  "description": "Bridge für Tuya-Steckdose zu MQTT (Alternative Slug)",
+  "description": "Bridge für Tuya-Steckdose zu MQTT",
   "arch": ["amd64", "armv7", "aarch64"],
   "startup": "application",
   "boot": "auto",
   "host_network": true,
   "init": false,
-  "panel_icon": "mdi:power-socket-de",
+  "panel_icon": "mdi:power-plug",
   "options": {},
   "schema": {},
   "build_from": {
-  "amd64": "Dockerfile"
+    "amd64": "Dockerfile"
+  }
 }
 
-}
